@@ -202,3 +202,7 @@ footer {
     color: #F9FAF8;
     padding: 24px;
 }
+
+footer a {
+    color: #E5E7EB;
+}
