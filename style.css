@@ -156,7 +156,7 @@ header a {
     flex: none;
     max-width: 1000px;
     width: 100%;
-    margin-bottom: 64px;
+    margin-bottom: 96px;
 }
 .signup {
     background-color: #3882F6;
@@ -174,7 +174,7 @@ header a {
 }
 .box p {
     padding: 0;
-    margin: 8px 0;
+    margin: 4px 0;
 }
 .signup .title {
     font-weight: 900;
@@ -194,4 +194,11 @@ button {
 .signup button {
     border: 2px solid #F9FAF8;
     margin-left: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 24px;
 }
