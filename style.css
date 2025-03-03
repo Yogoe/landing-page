@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 200vh;
     padding: 0;
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -26,16 +26,13 @@ header {
     width: 100%;
 }
 .navbar,
-.hero,
-.info,
-.quote,
-.signup {
+.hero {
+    flex: 1;
     max-width: 1000px;
 }
 .navbar {
     display: flex;
     margin-bottom: 100px;
-    width: 100%;
 }
 .logo {
     font-weight: 700;
@@ -111,7 +108,8 @@ button {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 56px;
 }
 .card {
     flex: 1;
@@ -132,7 +130,12 @@ button {
 
 .quote {
     flex: 1;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #E5E7EB;
+    width: 100%;
 }
+
 
 .signup {
     flex: 1;
