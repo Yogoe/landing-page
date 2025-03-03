@@ -25,7 +25,6 @@ header {
     padding: 16px;
     width: 100%;
 }
-
 .navbar,
 .hero,
 .info,
@@ -33,7 +32,6 @@ header {
 .signup {
     max-width: 1000px;
 }
-
 .navbar {
     display: flex;
     margin-bottom: 100px;
@@ -42,25 +40,21 @@ header {
 .logo {
     font-weight: 700;
 }
-
 header ul {
     margin: 0;
     margin-left: auto;
     padding: 0;
     display: flex;
 }
-
 header li {
     margin-left: 16px;
     list-style-type: none;
 }
-
 header a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
 }
-
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -72,24 +66,20 @@ header a {
     gap: 48px;
     margin-bottom: 100px;
 }
-
 .main,
 .image {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-
 .main p,
 .placeholder {
     font-size: 18px;
     font-weight: 100;
 }
-
 .main p {
     margin: 0 30px 8px 0;
 }
-
 button {
     flex-shrink: 0;
     max-width: 90px;
@@ -99,7 +89,6 @@ button {
     border-radius: 6px;
     font-weight: 900;
 }
-
 .image {
     background-color: #7e7f80;
     justify-content: center;
@@ -107,6 +96,38 @@ button {
 .image .placeholder {
     align-self: center;
     text-align: center;
+}
+
+.info {
+    flex: 1;
+    width: 100%;
+}
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 16px 0;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 152px;
+}
+.art {
+    border: 2px solid #3882F6;
+    border-radius: 4px;    
+    width: 150px;
+    height: 150px;
+}
+.card p {
+    width: 150px;
 }
 
 .quote {
