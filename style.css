@@ -33,6 +33,7 @@ header {
 .navbar {
     display: flex;
     margin-bottom: 100px;
+    width: 100%;
 }
 .logo {
     font-weight: 700;
