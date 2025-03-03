@@ -187,6 +187,7 @@ button {
     max-height: 40px;
     padding: 6px;
     background-color: #3882F6;
+    border: #3882F6;
     color: #F9FAF8;
     border-radius: 6px;
     font-weight: 900;
