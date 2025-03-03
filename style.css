@@ -146,6 +146,7 @@ button {
     align-items: end;
     max-width: 900px;
     gap: 8px;
+    padding: 100px 0;
 }
 .quote p{
     padding: 0;
